@@ -1,0 +1,11 @@
+{
+    "include": ["src"],//js로 컴파일하고 싶은 모든 디렉터리를 넣어줌.
+    "compilerOptions": {
+        "outDir": "build", //ts에게 js로 컴파일한 파일들을 넣어줄 파일을 지정
+        "target": "ES6", //무슨버전의 js로 ts를 컴파일하고 싶은지?
+        "lib": ["ES6"],
+        "strict": true,
+        "esModuleInterop": true,
+        "module":"CommonJS"
+    }
+}
